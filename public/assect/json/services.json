@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "title": "Clipping Path Service ",
+    "slug": "clipping-path-service",
+    "description": " Our Clipping Path Service at Jewellry is the key to achieving clean, precise image outlines. Our skilled team meticulously isolates subjects from backgrounds, ensuring impeccable, high-quality results. Whether it's for e-commerce product images or creative projects, our clipping path service enhances the visual appeal of your photos. We pay attention to every detail, delivering pixel-perfect paths that seamlessly integrate with various designs. With a commitment to accuracy and efficiency, our service guarantees that your images stand out, making a lasting impact. Trust us for professional-grade clipping path services that bring a new level of refinement to your visual content.",
+    "prices": [
+      {
+        "old_price": "100",
+        "new_price": "80"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/d7n27mN/RHEA-ROSSO-002-271023.jpg",
+        "afterImg": "https://i.ibb.co/SJ66Fxp/RHEA-ROSSO-002-271023.png"
+      }
+    ],
+    "category": "Spa",
+    "status": "Active",
+    "content": {
+      "description": [
+        {
+          "title": "What Is a Clipping Path?",
+          "text": "A Clipping Path is a graphic editing technique used to outline and isolate a specific object or subject in an image. It involves creating a path or vector shape to remove the background, allowing the isolated element to be placed on a new background or used independently."
+        },
+        {
+          "title": "Basic Clipping Path?",
+          "text": "A Basic Clipping Path involves outlining a simple object with straight lines. It's an essential technique for isolating products or elements with clear edges. Our expert team ensures precise paths, enhancing the visual appeal of your images with a clean and professional look."
+        },
+        {
+          "title": "Simple Clipping Path?",
+          "text": "A Simple Clipping Path is perfect for isolating objects with basic shapes and minimal intricacies. Our skilled team meticulously outlines these elements, ensuring a clean, polished look that enhances the overall visual impact of your images. Trust us for precision and professionalism in every edit."
+        },
+        {
+          "title": "Medium Clipping Paths?",
+          "text": "Medium Clipping Paths are ideal for isolating objects with moderate complexity, such as products with more intricate shapes or multiple curves. Our skilled editors meticulously create precise paths, ensuring a polished and refined appearance while maintaining a high level of detail in your images."
+        },
+        {
+          "title": "Complex Clipping Path?",
+          "text": "Complex Clipping Paths are tailored for intricate subjects with detailed edges, such as jewelry or intricate fashion items. Our skilled team excels in meticulously outlining these complex shapes, ensuring the highest quality in image isolation. Trust us for precision and professionalism in handling even the most intricate editing challenges."
+        },
+        {
+          "title": "Super Complex Clipping Path?",
+          "text": "Super Complex Clipping Paths are designed for highly intricate subjects with numerous complex details, like fine hair, intricate patterns, or complex product designs. Our expert team excels in precision, ensuring the most challenging elements are accurately outlined for a flawless and professional image result."
+        }
+      ]
+    },
+    "client_feedback": [
+      {
+        "name": "Aurora Grace",
+        "image": "client_image_url_1",
+        "description": "An oasis of serenity!",
+        "star": "5"
+      },
+      {
+        "name": "Luna Belle",
+        "image": "client_image_url_2",
+        "description": "Absolutely stunning.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Photo Retouching Service",
+    "slug": "photo-retouching-service",
+    "description": "Our Photo Retouching Service at Jewellrygoes beyond correction; it's a transformative experience for your images. Our skilled professionals delicately enhance skin tones, remove blemishes, and refine details. Whether for portraits, product shots, or creative projects, we bring out the best in your photos, ensuring a flawless and polished appearance. From color adjustments to fine-tuning textures, we focus on every detail to achieve perfection. Trust us to elevate your images, leaving a lasting impression. Experience the magic of our photo retouching service, where your vision meets our expertise, resulting in visually stunning and captivating photographs.",
+    "prices": [
+      {
+        "old_price": "75",
+        "new_price": "65"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/Ks7q47s/Send-to-Editing-R572-Sapp.jpg",
+        "afterImg": "https://i.ibb.co/NV6JDZH/Send-to-Editing-R572-Sapp.png"
+      }
+    ],
+    "category": "Restaurant",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Jewellery Retouch",
+        "image": "client_image_url_3",
+        "description": "A culinary dream come true!",
+        "star": "5"
+      },
+      {
+        "name": "Glamour Retouching Service",
+        "image": "client_image_url_4",
+        "description": "Exquisite in every way.",
+        "star": "4"
+      },
+      {
+        "name": "Product retouch",
+        "image": "client_image_url_4",
+        "description": "Exquisite in every way.",
+        "star": "3"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Shadow Service",
+    "slug": "shadow-service",
+    "description": "Introducing our Shadow Service at Jewellry, where we add depth and realism to your images. Our skilled team meticulously crafts natural shadows, enhancing the overall visual impact. Whether for product photography or artistic compositions, our service ensures that every element seamlessly integrates with its surroundings. From drop shadows to reflections, we pay attention to detail, creating a sense of dimension that brings your images to life. Trust us to skillfully manipulate light and shadow, adding a professional touch that elevates your visuals. Explore the transformative possibilities with our Shadow Service, where precision meets creativity for captivating results.",
+    "prices": [
+      {
+        "old_price": "110",
+        "new_price": "90"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/m9ykRjN/IMG-4855.jpg",
+        "afterImg": "https://i.ibb.co/rQp8M2C/IMG-4855.png"
+      }
+    ],
+    "category": "Spa",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Aria Starlight",
+        "image": "client_image_url_5",
+        "description": "A sanctuary of tranquility!",
+        "star": "5"
+      },
+      {
+        "name": "Solstice Bliss",
+        "image": "client_image_url_6",
+        "description": "Pure serenity for the soul.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Image Manipulation/neck Joint Service",
+    "slug": "golden-sunset-dining",
+    "description": "Our Image Manipulation/Neck Joint Service at Jewellry is your gateway to flawless and cohesive visual storytelling. Specializing in clothing and product photography, we expertly manipulate and enhance images to create seamless neck joints. This service ensures consistency and a natural flow, making garments look impeccable. From ghost mannequin effects to detailed adjustments, our skilled team meticulously crafts images that showcase your products at their best. Elevate your brand aesthetics and captivate your audience with our Image Manipulation/Neck Joint Service—where precision meets creativity for a stunning visual impact. Trust us to transform your images into compelling narratives.",
+    "prices": [
+      {
+        "old_price": "90",
+        "new_price": "75"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/Cb1RQLB/NO-BACKGROUND-001.jpg",
+        "afterImg": "https://i.ibb.co/8sLv4NM/NO-BACKGROUND-001.png"
+      }
+    ],
+    "category": "Restaurant",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Celeste Dawn",
+        "image": "client_image_url_7",
+        "description": "A dining experience like no other!",
+        "star": "5"
+      },
+      {
+        "name": "Harmony Dusk",
+        "image": "client_image_url_8",
+        "description": "Exquisite flavors under the setting sun.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Image Maskin Service",
+    "slug": "majestic-mountain-trek",
+    "description": "Our Image Masking Service at Jewellry is the key to refining complex image details. Whether it's intricate hair strands, fine textures, or challenging outlines, our skilled team employs advanced masking techniques for precise results. From soft edges to intricate elements, we ensure flawless isolation, allowing you to seamlessly integrate subjects into diverse backgrounds. Elevate your visuals with our Image Masking Service, providing the flexibility and precision needed for high-quality photo edits. Trust us for a professional touch that enhances the visual appeal of your images and allows your creativity to shine through. Explore the possibilities of superior image masking with us.",
+    "prices": [
+      {
+        "old_price": "120",
+        "new_price": "95"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/pXpxgRt/pexels-photo-5255233.jpg",
+        "afterImg": "https://i.ibb.co/xMpKJdy/pexels-photo-5255233.png"
+      }
+    ],
+    "category": "Adventure",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Aurora Peaks",
+        "image": "client_image_url_9",
+        "description": "Breath-taking vistas at every step!",
+        "star": "5"
+      },
+      {
+        "name": "Kai Summit",
+        "image": "client_image_url_10",
+        "description": "A journey to remember.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Photo Color Correction Service",
+    "slug": "garden-of-tranquility",
+    "description": "Our Photo Color Correction Service at Jewellry brings vibrancy and balance to your images. Skilled in enhancing tones, hues, and overall color balance, our team ensures your photos achieve a captivating and natural look. Whether correcting exposure issues, adjusting color temperature, or fine-tuning saturation, we strive for perfection. Our service caters to diverse needs, from portrait photography to product shots. Transform your images with precision color adjustments, ensuring each detail shines. Trust us for a professional touch that revitalizes your visuals, leaving a lasting impression. Explore the transformative power of color with our Photo Color Correction Service—where accuracy meets artistic enhancement.",
+    "prices": [
+      {
+        "old_price": "95",
+        "new_price": "80"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/7JGscV9/13341655-02.jpg",
+        "afterImg": "https://i.ibb.co/MDm2bRV/13341655-02.png"
+      }
+    ],
+    "category": "Gardens",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Lily Serene",
+        "image": "client_image_url_11",
+        "description": "A garden of calm and beauty!",
+        "star": "5"
+      },
+      {
+        "name": "Oliver Verdant",
+        "image": "client_image_url_12",
+        "description": "Tranquility like no other.",
+        "star": "4"
+      }
+    ]
+  }
+]

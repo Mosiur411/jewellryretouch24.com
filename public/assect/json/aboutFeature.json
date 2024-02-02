@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "feature1",
+    "total": "50,663",
+    "description": "Happy Customers"
+  },
+  {
+    "id": 2,
+    "icon": "feature2",
+    "total": "10,627+",
+    "description": "Total Services"
+  },
+  {
+    "id": 3,
+    "icon": "feature3",
+    "total": "500+",
+    "description": "Total Sellers"
+  },
+  {
+    "id": 4,
+    "icon": "feature4",
+    "total": "24/7",
+    "description": "Customer Support"
+  }
+]

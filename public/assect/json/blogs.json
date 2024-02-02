@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Unleashing Visual Brilliance: The Future of Photo Editing",
+    "image": "blog1.jpg",
+    "date": "14 Feb",
+    "category": "Photo Editing",
+    "description": "Explore how technological advancements are shaping the future of photo editing. Discover the artistry behind transforming images and the evolving landscape of visual storytelling."
+  },
+  {
+    "id": "2",
+    "title": "Mastering the Art: Elevating Your Photos with Precision",
+    "image": "blog2.jpg",
+    "date": "14 Jun, 2023",
+    "category": "Photo Editing",
+    "description": "Dive into the intricacies of photo editing. From meticulous retouching to seamless enhancements, learn how a photo editing agency can bring out the best in your visuals."
+  },
+  {
+    "id": "3",
+    "title": "Crafting Visual Stories: The Impact of Photo Editing",
+    "image": "blog3.jpg",
+    "date": "14 Oct, 2023",
+    "category": "Photo Editing",
+    "description": "Uncover the significance of photo editing in visual storytelling. Witness the transformative power of expert edits and how they elevate the overall appeal of your images."
+  },
+  {
+    "id": "4",
+    "title": "Artistry in Pixels: Navigating the Photo Editing Revolution",
+    "image": "blog4.jpg",
+    "date": "14 Apr, 2023",
+    "category": "Photo Editing",
+    "description": "Join us on a journey through the photo editing revolution. From advanced techniques to creative insights, discover the nuances that make each image a work of art."
+  },
+  {
+    "id": "5",
+    "title": "Beyond Boundaries: Redefining Visual Excellence with Editing",
+    "image": "blog5.jpg",
+    "date": "14 Jun, 2023",
+    "category": "Photo Editing",
+    "description": "Delve into the realm of visual excellence. Learn how a photo editing agency transcends boundaries, bringing innovation and creativity to every pixel of your images."
+  },
+  {
+    "id": "6",
+    "title": "The Art of Enhancement: Transformative Photo Editing Unveiled",
+    "image": "blog6.webp",
+    "date": "14 Mar, 2023",
+    "category": "Photo Editing",
+    "description": "Unveil the secrets behind transformative photo editing. Explore the techniques that redefine images, turning ordinary visuals into extraordinary works of art."
+  }
+]

@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  font-family: "Ubuntu", sans-serif;
+} */
+.mobileMenu {
+  z-index: 10000000000 !important;
+  position: relative;
+}
+/* about us css */
+.slick-prev::before,
+.slick-next::before {
+  display: none !important;
+  /* z-index: 1000 !important	; */
+}
+
+.slick-slider {
+  width: 100%;
+  height: 32rem;
+}
+.review__slider .slick-prev {
+  left: 75% !important;
+  z-index: 99;
+  top: 70% !important;
+}
+.review__slider .slick-next {
+  left: 79% !important;
+  z-index: 99;
+  top: 70% !important;
+}
+@media (max-width: 1535px) {
+  .review__slider .slick-next {
+    left: 80% !important;
+  }
+}
+@media (max-width: 1280px) {
+  .review__slider .slick-next {
+    left: 81% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .review__slider .slick-prev {
+    left: 44% !important;
+    top: 65% !important;
+  }
+
+  .review__slider .slick-next {
+    left: 52% !important;
+    top: 65% !important;
+  }
+}
+@media (max-width: 768px) {
+  .review__slider .slick-prev {
+    left: 42% !important;
+    top: 70% !important;
+  }
+
+  .review__slider .slick-next {
+    left: 52% !important;
+    top: 70% !important;
+  }
+}
+@media (max-width: 536px) {
+  .review__slider .slick-prev {
+    left: 40% !important;
+    top: 75% !important;
+  }
+
+  .review__slider .slick-next {
+    left: 54% !important;
+    top: 75% !important;
+  }
+}
+@media (max-width: 440px) {
+  .review__slider .slick-prev {
+    left: 38% !important;
+    top: 80% !important;
+  }
+
+  .review__slider .slick-next {
+    left: 56% !important;
+    top: 80% !important;
+  }
+}
+@media (max-width: 400px) {
+  .review__slider .slick-prev {
+    top: 90% !important;
+  }
+
+  .review__slider .slick-next {
+    top: 90% !important;
+  }
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}

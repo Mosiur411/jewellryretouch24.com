@@ -1,0 +1,124 @@
+{
+    "client_feedback": [
+        {
+            "name": "Aurora Grace",
+            "image": "client_image_url_1",
+            "description": "An enchanting experience that left me speechless. I felt like I was in a dream!",
+            "star": "5"
+        },
+        {
+            "name": "Luna Belle",
+            "image": "client_image_url_2",
+            "description": "Absolutely mesmerizing. I can't wait to return and be swept away once more.",
+            "star": "4"
+        },
+        {
+            "name": "Elysia Rose",
+            "image": "client_image_url_3",
+            "description": "A symphony of flavors and aromas. Each bite was a sensory delight.",
+            "star": "5"
+        },
+        {
+            "name": "Zephyr Dusk",
+            "image": "client_image_url_4",
+            "description": "While it was good, I expected a little more. A pleasant experience nonetheless.",
+            "star": "4"
+        },
+        {
+            "name": "Aria Starlight",
+            "image": "client_image_url_5",
+            "description": "The spa was a realm of tranquility and healing. I emerged refreshed and anew.",
+            "star": "5"
+        },
+        {
+            "name": "Solstice Bliss",
+            "image": "client_image_url_6",
+            "description": "A haven of serenity that transcends the ordinary. Pure relaxation.",
+            "star": "4"
+        },
+        {
+            "name": "Celeste Dawn",
+            "image": "client_image_url_7",
+            "description": "Dining under the golden sunset was like a fairytale. I was enchanted.",
+            "star": "5"
+        },
+        {
+            "name": "Harmony Dusk",
+            "image": "client_image_url_8",
+            "description": "A memorable meal with an ambiance that felt straight out of a dream.",
+            "star": "4"
+        },
+        {
+            "name": "Aurora Peaks",
+            "image": "client_image_url_9",
+            "description": "The mountain trek was a journey through breathtaking landscapes. Truly majestic!",
+            "star": "5"
+        },
+        {
+            "name": "Kai Summit",
+            "image": "client_image_url_10",
+            "description": "A trek worth remembering, though a bit challenging at times.",
+            "star": "4"
+        },
+        {
+            "name": "Lily Serene",
+            "image": "client_image_url_11",
+            "description": "The garden was a haven of calm and beauty. A perfect escape from the daily grind.",
+            "star": "5"
+        },
+        {
+            "name": "Oliver Verdant",
+            "image": "client_image_url_12",
+            "description": "A tranquil oasis within the city. I found peace and serenity in every corner.",
+            "star": "4"
+        },
+        {
+            "name": "Marina Waves",
+            "image": "client_image_url_13",
+            "description": "Paradise found by the azure ocean. A place to unwind and forget the world's worries.",
+            "star": "5"
+        },
+        {
+            "name": "Sebastian Sands",
+            "image": "client_image_url_14",
+            "description": "Crystal waters and golden sands – the perfect combination for a serene getaway.",
+            "star": "4"
+        },
+        {
+            "name": "Elara Moonshadow",
+            "image": "client_image_url_15",
+            "description": "A mystical forest retreat that made me feel like I was part of a fairy tale.",
+            "star": "5"
+        },
+        {
+            "name": "Sylvan Whisper",
+            "image": "client_image_url_16",
+            "description": "In harmony with nature, I discovered the magic of the forest and its secrets.",
+            "star": "4"
+        },
+        {
+            "name": "Astrid Nightsea",
+            "image": "client_image_url_17",
+            "description": "Romance on the high seas under the moonlight. A memory to treasure forever.",
+            "star": "5"
+        },
+        {
+            "name": "Adrian Starlight",
+            "image": "client_image_url_18",
+            "description": "An enchanting evening aboard the moonlit serenade cruise. Truly magical.",
+            "star": "3"
+        },
+        {
+            "name": "Lily Seraphina",
+            "image": "client_image_url_19",
+            "description": "An exquisite wedding venue surrounded by emerald gardens. My fairytale wedding came to life.",
+            "star": "5"
+        },
+        {
+            "name": "Lucas Dreamweaver",
+            "image": "client_image_url_20",
+            "description": "A charming and picturesque location for a wedding. Everything was magical.",
+            "star": "4"
+        }
+    ]
+}

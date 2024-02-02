@@ -1,0 +1,75 @@
+[
+  {
+    "label": "Home",
+    "link": "/"
+  },
+  {
+    "label": "Services",
+    "link": "/services",
+    "submenu": [
+      {
+        "id": "1a",
+        "label": "Clipping Path Service",
+        "link": "/clippingPath",
+        "subItems": [
+          {
+            "id": "11",
+            "label": "Basic Clipping Path",
+            "link": "/"
+          },
+          {
+            "id": "22",
+            "label": "Simple Clipping Path",
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "label": "Photo Retouching Service",
+        "link": "/imageMasking"
+      },
+      {
+        "id": "3",
+        "label": "Shadow Service",
+        "link": "/imageMasking"
+      },
+      {
+        "id": "4",
+        "label": "Image Manipulation",
+        "link": "/imageMasking"
+      },
+      {
+        "id": "5",
+        "label": "Neck Joint Service",
+        "link": "/imageMasking"
+      },
+      {
+        "id": "6",
+        "label": "Image Maskin Service",
+        "link": "/imageMasking"
+      },
+      {
+        "id": "7",
+        "label": "Photo Color Correction Service",
+        "link": "/imageMasking"
+      }
+    ]
+  },
+  {
+    "label": "Pricing",
+    "link": "/pricing"
+  },
+  {
+    "label": "Contact",
+    "link": "/contact"
+  },
+  {
+    "label": "Blog",
+    "link": "/blog"
+  },
+  {
+    "label": "About",
+    "link": "/about"
+  }
+]

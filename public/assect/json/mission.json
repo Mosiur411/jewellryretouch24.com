@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "mission1.svg",
+    "title": "Best Online Support",
+    "description": "Reliable and prompt online support. Our dedicated team is committed to providing the best assistance for a seamless and satisfying experience."
+  },
+  {
+    "id": 2,
+    "image": "mission2.svg",
+    "title": "Trusted Services",
+    "description": "Experience trusted services. Our commitment is to deliver reliable solutions, ensuring your satisfaction and building a lasting partnership based on trust."
+  },
+  {
+    "id": 3,
+    "image": "mission3.svg",
+    "title": "Expand Reviews",
+    "description": "Exceptional service! Each review speaks to our commitment—precision, creativity, and professionalism. Elevate your visuals with our trusted photo editing services."
+  }
+]
