@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <AboutHero />
-      <OurMission />
+   {/*    <OurMission /> */}
       <AboutFeature />
     </>
   );

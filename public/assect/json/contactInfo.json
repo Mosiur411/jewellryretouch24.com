@@ -3,21 +3,21 @@
     "id": 1,
     "type": "Email",
     "description": "Our friendly team is here to help.",
-    "value": "hello@notex.com",
+    "value": "jewelleryretouch24@gmail.com",
     "icon": "GoMail"
   },
   {
     "id": 2,
     "type": "Office",
     "description": "Come say hello at our office HQ.",
-    "value": "Rangpur, Dhaka, Bangladesh.",
+    "value": "Gaibandha,Rangpur,Bangladesh.",
     "icon": "GoLocation"
   },
   {
     "id": 3,
     "type": "Phone",
-    "description": "Mon-Fri from 8am to 5pm.",
-    "value": "+8801732023548",
+    "description": "Mon-Satur from 8am to 5pm.", 
+    "value": "+8801897688943",
     "icon": "IoCallOutline"
   }
 ]
