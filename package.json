@@ -4,12 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "node server.js",
-    "build": "next build && next-sitemap",
+    "build": "next build",
     "prod_start": "NODE_ENV=production node server.js",
-    "export": "next export",
-    "start": "node server.js",
-    "postbuild":"next-sitemap",
-    "lint": "next lint"
+    "export": "next export"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
