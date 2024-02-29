@@ -8,7 +8,7 @@ export default function PricingCardsConatiner() {
                 <div className=" lg:flex grid md:grid-cols-2  gap-10 ">
                     <PricingCard
                         type="Starter"
-                        price="$1.99"
+                        price="$0.99"
                         description="Perfect for using in a Starter website or a client project."
                         buttonText="Choose Starter"
                     >
@@ -22,7 +22,7 @@ export default function PricingCardsConatiner() {
 
                     <PricingCard
                         type="Pro"
-                        price="$2.99"
+                        price="$2.50"
                         description="Perfect for using in a Starter website or a client project."
                         buttonText="Choose Business"
                         active
@@ -37,7 +37,7 @@ export default function PricingCardsConatiner() {
 
                     <PricingCard
                         type="Elite"
-                        price="$10.00"
+                        price="$8.00"
                         description="Perfect for using in a Starter website or a client project."
                         buttonText="Choose Professional"
                     >
