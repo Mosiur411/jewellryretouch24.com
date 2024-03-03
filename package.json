@@ -13,6 +13,7 @@
     "aos": "^2.3.4",
     "globalthis": "^1.0.3",
     "next": "13.5.5",
+    "nodemailer": "^6.9.11",
     "react": "^18",
     "react-compare-slider": "^3.0.1",
     "react-dom": "^18",

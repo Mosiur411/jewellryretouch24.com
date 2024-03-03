@@ -1,22 +1,26 @@
 [
-  { "id": 1, "service": "Clipping Path" },
-  { "id": 2, "service": "photo retouching service" },
-  { "id": 3, "service": "Multiple Clipping Path" },
-  { "id": 4, "service": "Background Removal" },
-  { "id": 5, "service": "Image Masking" },
-  { "id": 6, "service": "Shadow Creation" },
-  { "id": 7, "service": "Ghost Mannequin" },
-  { "id": 8, "service": "Neck Joint" },
-  { "id": 9, "service": "Photo Retouching" },
-  { "id": 10, "service": "Color Change" },
-  { "id": 11, "service": "Color Correction" },
-  { "id": 12, "service": "Raster to Vector Conversion" },
-  { "id": 13, "service": "Clothing Photo Editing" },
-  { "id": 14, "service": "Furniture Photo Editing" },
-  { "id": 15, "service": "Shoe Photo Editing" },
-  { "id": 16, "service": "Jewelry Retouching" },
-  { "id": 17, "service": "E-commerce Photo Editing" },
-  { "id": 18, "service": "Headshot Retouching" },
-  { "id": 19, "service": "Wedding Photo Editing" },
-  { "id": 20, "service": "360° Photo Editing" }
+  {
+    "id": 1,
+    "service": "Clipping Path"
+  },
+  {
+    "id": 2,
+    "service": "Photo Retouching"
+  },
+  {
+    "id": 3,
+    "service": "Shadow Creation"
+  },
+  {
+    "id": 4,
+    "service": "Neck Joint"
+  },
+  {
+    "id": 5,
+    "service": "Image Masking"
+  },
+  {
+    "id": 6,
+    "service": "Color Correction"
+  }
 ]

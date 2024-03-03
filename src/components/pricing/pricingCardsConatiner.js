@@ -46,7 +46,7 @@ export default function PricingCardsConatiner() {
                         <List>100% Client</List>
                         <List>1 Day Free Storage</List>
                         <List>Per day 500 images</List>
-                        <List>Starting at $5.00</List>
+                        <List>Starting at $8.00</List>
                     </PricingCard>
                 </div>
             </div>
