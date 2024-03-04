@@ -146,6 +146,9 @@ export default function MobileMenu() {
                   <Link className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/about' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`} href={'/about'}>
                     {icons['About']}  About
                   </Link>
+                  <Link className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/freeTrial' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`} href={'/freeTrial'}>
+                    {icons['Contact']}  Free Trial
+                  </Link>
 
 
                 </div>
