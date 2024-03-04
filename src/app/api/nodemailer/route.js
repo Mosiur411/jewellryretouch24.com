@@ -10,6 +10,8 @@ export async function POST(request) {
     try {
         const { firstName, lastName, email, phoneNumber, serviceType, instruction } = data;
         // Create a Nodemailer transporter
+
+        //  resive mail
         const transporter = nodemailer.createTransport({
             port: 567,
             host: "smtp.gmail.com",
@@ -20,7 +22,6 @@ export async function POST(request) {
             },
         });
 
-        // Send mail with defined transport object
         const info = await transporter.sendMail({
             from: 'mdhasanmia932@gmail.com',
             to: 'jewelleryretouch24@gmail.com',
@@ -34,6 +35,33 @@ export async function POST(request) {
                 <p>Instruction: ${instruction}</p>
             `
         });
+
+
+
+
+        //  resive mail
+        const transporterClientSent = nodemailer.createTransport({
+            port: 567,
+            host: "smtp.gmail.com",
+            service: 'gmail',
+            auth: {
+                user: 'jewelleryretouch24@gmail.com',
+                pass: 'qiliyftsmgsasset'
+            },
+        });
+
+        await transporterClientSent.sendMail({
+            from: 'jewelleryretouch24@gmail.com',
+            to: email,
+            subject: 'Welcome to JewelleryRetouch24',
+            html: `
+                <p>Dear ${firstName}</p>
+                <p>Welcome to JewelleryRetouch24! We're thrilled to have you as a member of our community.</p>
+
+            `
+        });
+
+
         return NextResponse.json({ success: true });
     } catch (error) {
         console.error('Error sending email:', error);
