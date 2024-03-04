@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
               {children}
               <Footer />
               <div className="fixed  bottom-0 right-0 p-4">
-                <Link href={'https://api.whatsapp.com/send/?phone=%2B8801761033847&text=Hello%2C&type=phone_number&app_absent=0'}>
+                <Link href={'https://api.whatsapp.com/send/?phone=%2B8801897688943&text=Hello%2C&type=phone_number&app_absent=0'}>
                   <Image src={whatapps} alt="whatapps" width={70} className="rounded-full" />
                 </Link>
               </div>
