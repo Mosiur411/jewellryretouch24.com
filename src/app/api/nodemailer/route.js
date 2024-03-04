@@ -8,7 +8,7 @@ export async function POST(request) {
     }
 
     try {
-        const { firstName, lastName, email, phoneNumber, serviceType, instruction } = data;
+        const { firstName, lastName, email, phoneNumber, serviceType, instruction, fileLink } = data;
         // Create a Nodemailer transporter
 
         //  resive mail
@@ -32,6 +32,7 @@ export async function POST(request) {
                 <p>Email: ${email}</p>
                 <p>Phone Number: ${phoneNumber}</p>
                 <p>Service Type: ${serviceType}</p>
+                <p>File Link: ${fileLink}</p>
                 <p>Instruction: ${instruction}</p>
             `
         });

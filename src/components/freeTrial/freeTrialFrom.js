@@ -13,6 +13,7 @@ export default function FreeTrialFrom() {
         lastName: '',
         email: '',
         phoneNumber: '',
+        fileLink: '',
         serviceType: '',
         instruction: ''
     });
@@ -45,6 +46,7 @@ export default function FreeTrialFrom() {
                     email: '',
                     phoneNumber: '',
                     serviceType: '',
+                    fileLink: '',
                     instruction: ''
                 });
             } else {
@@ -73,7 +75,8 @@ export default function FreeTrialFrom() {
                         servicesList?.map(service => <Select key={service?.id} service={service} onChange={handleChange} />)
                     }
                 </div>
-                <Upload />
+                <Input type='text' idFor='fileLink' name='fileLink' label='File Link' placeholder='Give me file link ' value={formData.firstName} onChange={handleChange} />
+                {/*  <Upload /> */}
                 <Textarea idFor='Instruction' name='instruction' label='Instruction' placeholder='Your Instruction here . . .' value={formData.instruction} onChange={handleChange} />
                 <button
                     className={`
