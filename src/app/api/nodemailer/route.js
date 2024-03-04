@@ -15,16 +15,16 @@ export async function POST(request) {
             host: "smtp.gmail.com",
             service: 'gmail',
             auth: {
-                user: 'mosiurislamwebdesign@gmail.com',
-                pass: 'qxluvftskdklzard'
+                user: 'mdhasanmia932@gmail.com',
+                pass: 'cobmneirdtowongq'
             },
         });
 
         // Send mail with defined transport object
         const info = await transporter.sendMail({
-            from: 'mosiurislamwebdesign@gmail.com', // Sender address
-            to: 'mosiurislam411@gmail.com', // List of recipients
-            subject: 'New Form Submission', // Subject line
+            from: 'mdhasanmia932@gmail.com',
+            to: 'jewelleryretouch24@gmail.com',
+            subject: 'New Form Submission',
             html: `
                 <p>First Name: ${firstName}</p>
                 <p>Last Name: ${lastName}</p>
@@ -32,9 +32,9 @@ export async function POST(request) {
                 <p>Phone Number: ${phoneNumber}</p>
                 <p>Service Type: ${serviceType}</p>
                 <p>Instruction: ${instruction}</p>
-            ` 
+            `
         });
-        return NextResponse.json({success:true});
+        return NextResponse.json({ success: true });
     } catch (error) {
         console.error('Error sending email:', error);
         return NextResponse.error('Internal Server Error', { status: 500 });
