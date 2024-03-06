@@ -1,12 +1,16 @@
-'use client'
 // Components
 import SectionHeader from "@/components/shared/sectionHeader/page";
 import ServiceCard from "@/components/shared/card/serviceCard";
-
-// json data of services
+export const metadata = {
+    title: "Services - JewellryRetouch24",
+    description: "Discover JewellryRetouch24's professional jewelry retouching services. Learn about the range of services we offer to enhance the beauty of your jewelry images.",
+  };
 import services from '/public/assect/json/services.json'
 
+
 export default function Service() {
+
+    
     return (
         <>
             <SectionHeader lable='Our Services' title='Our Awesome Services' shotDetails='Elevate your photos with precision edits. Professional photo editing services at Jewellry. Unleash the full potential of your visuals.' />

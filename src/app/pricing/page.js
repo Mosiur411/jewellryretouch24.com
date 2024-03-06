@@ -1,7 +1,10 @@
 
 import PricingCardsConatiner from "@/components/pricing/pricingCardsConatiner";
 import SectionHeader from "@/components/shared/sectionHeader/page";
-
+export const metadata = {
+  title: "Pricing - JewellryRetouch24",
+  description: "View JewellryRetouch24's pricing plans for professional jewelry retouching services. Choose the plan that best fits your needs and budget.",
+};
 export default function Priceing() {
   return (
     <>

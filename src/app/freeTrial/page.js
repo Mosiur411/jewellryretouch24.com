@@ -1,6 +1,10 @@
 import FreeTrialFrom from "@/components/freeTrial/freeTrialFrom";
 import SectionHeader from "@/components/shared/sectionHeader/page";
 
+export const metadata = {
+  title: "Free Trial - JewellryRetouch24",
+  description: "Sign up for a free trial of JewellryRetouch24's professional jewelry retouching services. Experience the quality of our retouching solutions at no cost.",
+};
 export default function FreeTrial() {
   return (
     <>
