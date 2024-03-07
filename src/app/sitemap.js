@@ -1,0 +1,130 @@
+export default function sitemap() {
+    return [
+      {
+        url: 'https://jewelleryretouch24.com',
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 1,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/home',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/about',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/blog',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/contact',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/freeTrial',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/portfolio',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/pricing',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/services',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/services/clipping-path-service',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/services/photo-retouching-service',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/services/shadow-service',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/services/golden-sunset-dining',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/services/majestic-mountain-trek',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/services/garden-of-tranquility',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/blog/the-ultimate-guide-to-clipping-path-services',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/blog/unveiling-hte-magic-of-photo-retouching-services',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/blog/mastering-the-art-of-shadow-creation',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/blog/mastering-image-manipulatio',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/blog/unveiling-the-power-of-image-masking',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://jewelleryretouch24.com/blog/bringing-you-images-to-life',
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+    ]
+  }
