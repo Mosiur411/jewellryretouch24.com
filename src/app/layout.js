@@ -20,6 +20,9 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <html lang="en">
+    {/*   <head>
+      <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+      </head> */}
       <body className="bg-white dark:bg-[#121212]">
         <Provider store={store}>
           <div>
