@@ -1,18 +1,42 @@
+"use client"
+import { useEffect, useState } from "react";
 import Image from "next/image";
-
 // Images
-import aboutHero1 from '/public/assect/image/about/about1.png'
-import aboutHero4 from '/public/assect/image/about/about2.png'
-import aboutHero2 from '/public/assect/image/about/about3.PNG'
-import aboutHero3 from '/public/assect/image/about/about4.png'
-import aboutHero5 from '/public/assect/image/about/about5.png'
-import aboutHero6 from '/public/assect/image/about/about6.png'
-import aboutHero8 from '/public/assect/image/about/about7.png'
-import aboutHero9 from '/public/assect/image/about/about8.png'
+import service1 from '/public/assect/service/service1.jpg'
+import service2 from '/public/assect/service/service2.jpg'
+import service3 from '/public/assect/service/service3.jpg'
+import service4 from '/public/assect/service/service4.jpg'
+import service5 from '/public/assect/service/service5.jpg'
 
 export default function ImageGrids() {
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const images = [
+        service1, service2, service3, service4, service5
+    ];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+        }, 1000);
+        return () => clearInterval(interval);
+    }, []);
+
+
+
     return (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:px-20 md:px-0 px-0">
+        <>
+            <Image data-aos="fade-right" src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`}
+                className='w-100 h-[70vh]'
+            />
+        </>
+
+    )
+}
+
+/*
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:px-20 md:px-0 px-0">
             <div className="grid gap-4  order-last md:order-none">
                 <div className="max-w-full rounded-lg md:block hidden"></div>
                 <div>
@@ -86,5 +110,4 @@ export default function ImageGrids() {
                 </div>
             </div>
         </div>
-    )
-}
+*/

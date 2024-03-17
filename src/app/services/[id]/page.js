@@ -13,10 +13,14 @@ const SingleService = () => {
     const singleService = services.find(s => s.slug == Id?.id);
 
     return (
-        <div className=" lg:flex 2xl:gap-20 my-14 xl:gap-14 gap-8">
-            <SingleServiceLeft singleService={singleService} />
-            <SingleServiceRight singleService={singleService} />
+        <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
+            <div className=" lg:flex 2xl:gap-20 my-14 xl:gap-14 gap-8">
+                <SingleServiceLeft singleService={singleService} />
+                <SingleServiceRight singleService={singleService} />
+            </div>
+
         </div>
+
     );
 };
 

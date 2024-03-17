@@ -7,9 +7,9 @@ export const metadata = {
 };
 export default function Priceing() {
   return (
-    <>
+    <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
       <SectionHeader lable='Pricing Table' title='Our Pricing Plan' shotDetails='For transparent pricing that fits your needs, explore our service packages. Affordable rates, quality edits—unlock the potential of your visuals with us.' />
       <PricingCardsConatiner />
-    </>
+    </div>
   );
 }

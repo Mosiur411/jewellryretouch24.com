@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function page() {
     return (
-        <div>
+        <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
             <Image src={blogBanner} alt='blogBanner' className=' w-full rounded-xl sm:h-[400px]' />
 
             <div className='sm:flex xl:gap-20 gap-7 lg:w-10/12 mx-auto py-10'>

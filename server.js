@@ -6,7 +6,6 @@ const hostname = 'localhost';
 const port = process.env.PORT || 3000;
 const app = next({ dev });
 const handle = app.getRequestHandler();
-const favicon = require('serve-favicon');
 const path = require('path');
 
 app.prepare().then(() => {
@@ -15,14 +14,7 @@ app.prepare().then(() => {
       const parsedUrl = parse(req.url, true);
       const { pathname, query } = parsedUrl;
 
-      // Serve favicon.ico
-      if (pathname === '/favicon.ico') {
-        const faviconPath = path.join(__dirname, 'public', 'favicon.ico');
-        res.setHeader('Content-Type', 'image/x-icon');
-        res.setHeader('Cache-Control', 'public, max-age=86400');
-        res.sendFile(faviconPath);
-        return;
-      }
+ 
 
       // Your other route handling logic
       if (pathname === '/a') {
@@ -38,7 +30,7 @@ app.prepare().then(() => {
       res.end('internal server error');
     }
   }).listen(port, (err) => {
-    if (err) throw err;
+    if (err) throw err;l
     console.log(`> Ready on http://${hostname}:${port}`);
   });
 });

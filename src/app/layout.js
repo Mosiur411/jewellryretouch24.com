@@ -25,14 +25,17 @@ export default function RootLayout({ children }) {
           <div>
             <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
               <Navbar />
-              {children}
-              <Footer />
-              <div className="fixed  bottom-0 right-0 p-4">
-                <Link href={'https://api.whatsapp.com/send/?phone=%2B8801897688943&text=Hello%2C&type=phone_number&app_absent=0'}>
-                  <Image src={whatapps} alt="whatapps" width={70} className="rounded-full" />
-                </Link>
-              </div>
             </div>
+            {children}
+            <Footer />
+            <div className="fixed  bottom-0 right-0 p-4">
+              <Link href={'https://api.whatsapp.com/send/?phone=%2B8801897688943&text=Hello%2C&type=phone_number&app_absent=0'}>
+                <Image src={whatapps} alt="whatapps" width={70} className="rounded-full" />
+              </Link>
+            </div>
+
+
+           
           </div>
 
         </Provider>

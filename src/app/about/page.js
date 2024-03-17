@@ -8,9 +8,11 @@ export const metadata = {
 export default function About() {
   return (
     <>
-      <AboutHero />
-   {/*    <OurMission /> */}
-      <AboutFeature />
+      <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
+        <AboutHero />
+        {/*    <OurMission /> */}
+        <AboutFeature />
+      </div>
     </>
   );
 }

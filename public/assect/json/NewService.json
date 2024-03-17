@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "title": "Brass Light",
+        "slug": "brass-light",
+        "description": "BRASS LIGHT :Retouching jewelry of brass light fixtures involves enhancing and refining the photos to showcase the features and details of the fixtures while ensuring a polished and professional appearance.",
+    
+        "images": [
+            {
+                "beforeImg": "https://i.ibb.co/d7n27mN/RHEA-ROSSO-002-271023.jpg",
+                "afterImg": "https://i.ibb.co/SJ66Fxp/RHEA-ROSSO-002-271023.png"
+            }
+        ],
+        "category": "Spa",
+        "status": "Active",
+        "content": {
+            "description": [
+                {
+                    "title": "What Is a Clipping Path?",
+                    "text": "A Clipping Path is a graphic editing technique used to outline and isolate a specific object or subject in an image. It involves creating a path or vector shape to remove the background, allowing the isolated element to be placed on a new background or used independently."
+                },
+                {
+                    "title": "Basic Clipping Path?",
+                    "text": "A Basic Clipping Path involves outlining a simple object with straight lines. It's an essential technique for isolating products or elements with clear edges. Our expert team ensures precise paths, enhancing the visual appeal of your images with a clean and professional look."
+                },
+                {
+                    "title": "Simple Clipping Path?",
+                    "text": "A Simple Clipping Path is perfect for isolating objects with basic shapes and minimal intricacies. Our skilled team meticulously outlines these elements, ensuring a clean, polished look that enhances the overall visual impact of your images. Trust us for precision and professionalism in every edit."
+                },
+                {
+                    "title": "Medium Clipping Paths?",
+                    "text": "Medium Clipping Paths are ideal for isolating objects with moderate complexity, such as products with more intricate shapes or multiple curves. Our skilled editors meticulously create precise paths, ensuring a polished and refined appearance while maintaining a high level of detail in your images."
+                },
+                {
+                    "title": "Complex Clipping Path?",
+                    "text": "Complex Clipping Paths are tailored for intricate subjects with detailed edges, such as jewelry or intricate fashion items. Our skilled team excels in meticulously outlining these complex shapes, ensuring the highest quality in image isolation. Trust us for precision and professionalism in handling even the most intricate editing challenges."
+                },
+                {
+                    "title": "Super Complex Clipping Path?",
+                    "text": "Super Complex Clipping Paths are designed for highly intricate subjects with numerous complex details, like fine hair, intricate patterns, or complex product designs. Our expert team excels in precision, ensuring the most challenging elements are accurately outlined for a flawless and professional image result."
+                }
+            ]
+        },
+        "client_feedback": [
+            {
+                "name": "Aurora Grace",
+                "image": "client_image_url_1",
+                "description": "An oasis of serenity!",
+                "star": "5"
+            },
+            {
+                "name": "Luna Belle",
+                "image": "client_image_url_2",
+                "description": "Absolutely stunning.",
+                "star": "4"
+            }
+        ]
+    }
+]
