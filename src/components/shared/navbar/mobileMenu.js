@@ -27,10 +27,7 @@ export default function MobileMenu() {
   const [open, setOpen] = useState(false);
   const [submenu, setSubmenu] = useState(false)
   const [subItem, setSubItem] = useState(false)
-  const [Othersubmenu, setOtherSubmenu] = useState(false)
   const [OthersubItem, OthersetSubItem] = useState(false)
-
-
 
 
   // Icon mapping
@@ -117,62 +114,32 @@ export default function MobileMenu() {
                           OthersubItem && <div onClick={() => OthersetSubItem(!subItem)} className={` px-3 rounded w-full h-fit text-[14px] font-medium  flex flex-col transition-all ease-linear duration-150 `}>
                             <Link
                               className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/photoRetouchingService'}><PiSubtractBold />Photo Retouching Service
+                              href={'/services/clipping-path-service'}><PiSubtractBold />Photo Retouching Service
                             </Link>
                             <Link
                               className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/shadowService'}><PiSubtractBold />Shadow Service
+                              href={'/services/shadow-service'}><PiSubtractBold />Shadow Service
                             </Link>  
                             <Link
                               className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/imageManipulation'}><PiSubtractBold />Image Manipulation
+                              href={'/services/golden-sunset-dining'}><PiSubtractBold />Image Manipulation
                             </Link>
                             <Link
                               className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/neckJointService'}><PiSubtractBold />Neck Joint Service
+                              href={'/services/photo-retouching-service'}><PiSubtractBold />Neck Joint Service
                             </Link>
                             <Link
                               className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'imageMaskinService'}><PiSubtractBold />Image Maskin Service
+                              href={'/services/majestic-mountain-trek'}><PiSubtractBold />Image Maskin Service
                             </Link>
                             <Link
                               className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'photoColorCorrectionService'}><PiSubtractBold />Photo Color Correction Service
+                              href={'/services/garden-of-tranquility'}><PiSubtractBold />Photo Color Correction Service
                             </Link>
                           </div>
 
                         }
-
                       </div>
-
-
-                      {/*  <Link
-                        className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        href={'/photoRetouchingService'}><PiSubtractSquare />  Photo Retouching Service
-                      </Link>
-                      <Link
-                        className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        href={'/shadowService'}><PiSubtractSquare />  Shadow Service
-                      </Link>
-                      <Link
-                        className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        href={'/imageManipulation'}><PiSubtractSquare />  Image Manipulation
-                      </Link>
-                      <Link
-                        className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        href={'/neckJointService'}> <PiSubtractSquare /> Neck Joint Service
-                      </Link>
-                      <Link
-                        className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        href={'/imageMaskinService'}> <PiSubtractSquare /> Image Maskin Service
-                      </Link>
-                      <Link
-                        className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        href={'/photoColorCorrectionService'}> <PiSubtractSquare /> Photo Color Correction Service
-                      </Link> */}
-
-
-
                     </div>
                   }
 

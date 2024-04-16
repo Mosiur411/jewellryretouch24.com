@@ -1,11 +1,9 @@
 // icons import
 import { GoServer } from "react-icons/go";
-import { TbCurrencyDollar } from "react-icons/tb";
 
 // Components
 import Social from "../shared/social/page";
 import ServiceCat from "../shared/serviceCat/page";
-import RoundedBtnFill from "../shared/roundedBtn/roundedBtnFill";
 
 export default function SingleServiceRight() {
 
@@ -44,13 +42,7 @@ export default function SingleServiceRight() {
     ]
     return (
         <div className="lg:w-1/3">
-            <div className="  bg-gray-50 dark:bg-[#1c1c1c] shadow-md shadow-gray-100 dark:shadow-[#0e0e0e]   rounded-xl p-5 h-fit mb-10 flex justify-between items-center ">
-                <div className="text-xl flex items-center ">
-                    <TbCurrencyDollar className="text-[#748E63] dark:text-[#F9B572]" />
-                    <h1 className=" text-3xl font-medium dark:text-white">450</h1>
-                </div>
-                <RoundedBtnFill text='Visit now' type='button' href={'/'} />
-            </div>
+           
             <div className="   bg-gray-50 dark:bg-[#1c1c1c] shadow-md shadow-gray-100 dark:shadow-[#0e0e0e]   rounded-xl p-5 py-7 h-fit">
 
                 <div className=" flex items-start gap-3 text-lg ">

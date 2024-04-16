@@ -236,5 +236,214 @@
         "star": "4"
       }
     ]
+  },
+
+  {
+    "id": 7,
+    "title": "Illuminate Your Brass Light Designs with Professional Retouching Services",
+    "slug": "brass-ligth",
+    "description": "At Jewelleryretouch24, we understand the significance of showcasing your brass light designs in a way that accentuates their unique features and elegance. Our expert brass light retouching services are designed to enhance the beauty and visual appeal of your lighting products, ensuring that they shine brightly and attract the attention of potential customers.",
+    "prices": [
+      {
+        "old_price": "95",
+        "new_price": "80"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/TYq2fDY/B171-A-Diamond.jpg",
+        "afterImg": "https://i.ibb.co/5njWjbT/B171-A-Diamond.png"
+      }
+    ],
+    "category": "Gardens",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Lily Serene",
+        "image": "client_image_url_11",
+        "description": "A garden of calm and beauty!",
+        "star": "5"
+      },
+      {
+        "name": "Oliver Verdant",
+        "image": "client_image_url_12",
+        "description": "Tranquility like no other.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Elevate Your Earring Images with Expert Retouching Services",
+    "slug": "earring",
+    "description": "At Jewelleryretouch24, we understand the importance of showcasing your earring designs in a way that captivates your audience and highlights the intricate details of your creations. Our professional earring retouching services are tailored to enhance the beauty and elegance of your earrings, ensuring that they stand out and make a lasting impression on potential customers.",
+    "prices": [
+      {
+        "old_price": "95",
+        "new_price": "80"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/S0SStJc/before.jpg",
+        "afterImg": "https://i.ibb.co/RgfY6c7/after.png"
+      }
+    ],
+    "category": "Gardens",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Lily Serene",
+        "image": "client_image_url_11",
+        "description": "A garden of calm and beauty!",
+        "star": "5"
+      },
+      {
+        "name": "Oliver Verdant",
+        "image": "client_image_url_12",
+        "description": "Tranquility like no other.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Enhance the Glamour of Your Necklace Designs with Professional Retouching Services",
+    "slug": "necklace",
+    "description": "At Jewelleryretouch24, we recognize the importance of presenting your necklace designs in a way that accentuates their beauty and sophistication. Our expert necklace retouching services are tailored to elevate the allure and elegance of your jewelry pieces, ensuring they shine brightly and leave a lasting impression on your audience.",
+    "prices": [
+      {
+        "old_price": "95",
+        "new_price": "80"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/gMSHBKN/P1197-A.jpg",
+        "afterImg": "https://i.ibb.co/bbwZ8y7/P1197-A.png"
+      }
+    ],
+    "category": "Gardens",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Lily Serene",
+        "image": "client_image_url_11",
+        "description": "A garden of calm and beauty!",
+        "star": "5"
+      },
+      {
+        "name": "Oliver Verdant",
+        "image": "client_image_url_12",
+        "description": "Tranquility like no other.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Ring Service",
+    "slug": "ring",
+    "description": "",
+    "prices": [
+      {
+        "old_price": "95",
+        "new_price": "80"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/Rbb8pbP/Bracelete-Bracelete.jpg",
+        "afterImg": "https://i.ibb.co/XF3fP2Z/Bracelete-Bracelete.png"
+      }
+    ],
+    "category": "Gardens",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Lily Serene",
+        "image": "client_image_url_11",
+        "description": "A garden of calm and beauty!",
+        "star": "5"
+      },
+      {
+        "name": "Oliver Verdant",
+        "image": "client_image_url_12",
+        "description": "Tranquility like no other.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Color Changing Service",
+    "slug": "color-changing",
+    "description": "",
+    "prices": [
+      {
+        "old_price": "95",
+        "new_price": "80"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/qxJ0bWp/ring.png",
+        "afterImg": "https://i.ibb.co/rF3k50m/Untitled-1.png"
+      }
+    ],
+    "category": "Gardens",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Lily Serene",
+        "image": "client_image_url_11",
+        "description": "A garden of calm and beauty!",
+        "star": "5"
+      },
+      {
+        "name": "Oliver Verdant",
+        "image": "client_image_url_12",
+        "description": "Tranquility like no other.",
+        "star": "4"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Watches Service",
+    "slug": "watche",
+    "description": "",
+    "prices": [
+      {
+        "old_price": "95",
+        "new_price": "80"
+      }
+    ],
+    "images": [
+      {
+        "beforeImg": "https://i.ibb.co/Qmw8czf/DSC09009.jpg",
+        "afterImg": "https://i.ibb.co/bRdm41V/DSC09009.png"
+      }
+    ],
+    "category": "Gardens",
+    "status": "Active",
+    "client_feedback": [
+      {
+        "name": "Lily Serene",
+        "image": "client_image_url_11",
+        "description": "A garden of calm and beauty!",
+        "star": "5"
+      },
+      {
+        "name": "Oliver Verdant",
+        "image": "client_image_url_12",
+        "description": "Tranquility like no other.",
+        "star": "4"
+      }
+    ]
   }
 ]
+
+
+
+

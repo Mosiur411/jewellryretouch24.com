@@ -16,7 +16,7 @@ export default function Service() {
             <SectionHeader lable='Our Services' title='Our Awesome Services' shotDetails='Elevate your photos with precision edits. Professional photo editing services at Jewellry. Unleash the full potential of your visuals.' />
 
             <div className="  xl:w-8/12 mx-auto ">
-                {services?.map(service => <ServiceCard service={service} key={service?.id}  />)}
+                {services?.slice(0,6).map(service => <ServiceCard service={service} key={service?.id}  />)}
             </div>
         </div>
     )

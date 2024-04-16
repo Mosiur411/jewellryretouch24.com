@@ -12,7 +12,7 @@ export default function SingleServiceLeft({ singleService }) {
                 {slug === 'clipping-path-service' ? (
                     content.description.map((data, i) => (
                         <div key={i}>
-                            <h1 className="text-lg font-medium mb-3">{data?.title}</h1>
+                            <h1 className="text-lg font-medium mb-3 text-gray-600 dark:text-gray-300">{data?.title}</h1>
                             <p className="mt-7 mb-10 text-gray-600 dark:text-gray-300 text-justify">{data?.text}</p>
                         </div>
                     ))

@@ -16,7 +16,6 @@ export default function Menu() {
     };
     const [submenu, setSubmenu] = useState(false)
     const [subItem, setSubItem] = useState(false)
-    const [Othersubmenu, setOtherSubmenu] = useState(false)
     const [OthersubItem, OthersetSubItem] = useState(false)
 
 
@@ -51,27 +50,27 @@ export default function Menu() {
                             <div onMouseEnter={() => setSubItem(true)} onMouseLeave={() => setSubItem(false)} className={`absolute rounded  lg:-right-96 -right-80 lg:w-96 w-80 text-[14px] font-medium bg-red-300 flex flex-col transition-all ease-linear duration-150 ${subItem ? "visible top-0 opacity-100" : "invisible top-[.2rem] opacity-0"} `}>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/basicClippingPath'}>Brass Light
+                                    href={'/services/brass-ligth'}>Brass Light 
                                 </Link>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/simpleClippingPath'}>Earring
+                                    href={'/services/earring'}>Earring
                                 </Link>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/mediumClippingPaths'}>Necklace
+                                    href={'/services/necklace'}>Necklace
                                 </Link>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/complexClippingPath'}>Ring
+                                    href={'/services/ring'}>Ring
                                 </Link>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'superComplexClippingPath'}>Color Changing
+                                    href={'/services/color-changing'}>Color Changing
                                 </Link>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'superComplexClippingPath'}>Watches
+                                    href={'/services/watche'}>Watches
                                 </Link>
                             </div>
 
