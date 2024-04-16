@@ -33,9 +33,6 @@ export default function RootLayout({ children }) {
                 <Image src={whatapps} alt="whatapps" width={70} className="rounded-full" />
               </Link>
             </div>
-
-
-           
           </div>
 
         </Provider>

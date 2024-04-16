@@ -4,7 +4,6 @@ import logo from '/public/assect/image/logo.png'
 import payment from '/public/assect/payment/payment.png'
 import Image from "next/image";
 export default function Footer() {
-  // To Get pathname for active menu
   const pathname = usePathname()
   return (
 
@@ -28,22 +27,22 @@ export default function Footer() {
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services</h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Clipping Path Service</a>
+                  <a href="https://jewelleryretouch24.com/services/clipping-path-service" class="hover:underline ">Clipping Path Service</a>
                 </li>
                 <li class="mb-4">
-                  <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Photo Retouching Service</a>
+                  <a href="https://jewelleryretouch24.com/services/photo-retouching-service" class="hover:underline">Photo Retouching Service</a>
                 </li>
                 <li class="mb-4">
-                  <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Shadow Service</a>
+                  <a href="https://jewelleryretouch24.com/services/shadow-service" class="hover:underline">Shadow Service</a>
                 </li>
                 <li class="mb-4">
-                  <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Image Manipulation Service</a>
+                  <a href="https://jewelleryretouch24.com/services/golden-sunset-dining" class="hover:underline">Image Manipulation Service</a>
                 </li>
                 <li class="mb-4">
-                  <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Image Maskin Service</a>
+                  <a href="https://jewelleryretouch24.com/services/majestic-mountain-trek" class="hover:underline">Image Maskin Service</a>
                 </li>
                 <li class="mb-4">
-                  <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Photo Color Correction Service
+                  <a href="https://jewelleryretouch24.com/services/garden-of-tranquility" class="hover:underline">Photo Color Correction Service
 </a>
                 </li>
               </ul>
