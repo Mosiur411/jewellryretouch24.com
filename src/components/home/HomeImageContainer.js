@@ -73,9 +73,9 @@ export default function HomeImageContainer() {
   ];
 
   return (
-    <div className="grid md:grid-cols-3 sm:grid-cols-2 md:gap-10 gap-5">
+    <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5 ">{/* md:grid-cols-3 sm:grid-cols-2 md:gap-10 */}
       {brandImage?.map((data, index) => (
-        <div className="cursor-pointer  border bottom-2 rounded-t-xl" key={index} onClick={() => router.push(data?.path, { scroll: true })}>
+        <div className="w-[330px] mx-auto md:mx-0 md:w-auto cursor-pointer  border bottom-2 rounded-t-xl" key={index} onClick={() => router.push(data?.path, { scroll: true })}>
           <p className="w-full text-center bg-[#748E63] text-white  rounded-t-xl text-xl font-bold px-2 py-4   cursor-pointer">
             <Link href={""} className="">
               {data?.title}

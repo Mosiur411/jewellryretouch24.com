@@ -3,7 +3,7 @@ import HomeImageContainer from "./HomeImageContainer";
 
 const HomeGridImage = () => {
   return (
-    <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
+    <div className="relative container mx-auto  lg:px-10 ">
       <SectionHeader
         lable="Our Portfolio"
         title="Explore Our Awesome Portfolio"
