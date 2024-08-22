@@ -16,7 +16,7 @@ export default function ServiceCard({ service }) {
                 <h1 className='text-xl font-medium mb-3 text-[#748E63] dark:text-[#F9B572]'>{title}</h1>
                 <p className='mb-5 text-gray-600 dark:text-gray-300 text-justify'>{description?.slice(0, 450)}...</p>
                 <div className='flex items-center justify-start'>
-                    <RoundedBtn text='View Details' type='button' href={`services/${slug}`} />
+                    <RoundedBtn text='View Details' type='button' href={`/services/${slug}`} />
                 </div>
             </div>
         </div>
