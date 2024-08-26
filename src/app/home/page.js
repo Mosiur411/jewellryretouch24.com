@@ -2,7 +2,7 @@ import Reviews from "@/components/home/reviews/page";
 import Blog from "../blog/page";
 import OuseTems from "@/components/ourTems/OurTems";
 import HomeGridImage from "@/components/home/homeGridImage";
-import bannerImage from '/public/assect/banner.gif'
+import bannerImage from '/public/banner.gif'
 import Image from "next/image";
 export const metadata = {
   title: "JewellryRetouch24 - Professional Jewelry Retouching Services",
