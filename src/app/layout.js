@@ -23,10 +23,12 @@ export default function RootLayout({ children }) {
       <body className="bg-white dark:bg-[#121212]">
         <Provider store={store}>
           <div>
-            <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
+            <div className="sticky top-0 container mx-auto z-50  lg:px-10 sm:px-6 px-5 backdrop-blur-md">
               <Navbar />
             </div>
-            {children}
+            <div className="z-40">
+              {children}
+            </div>
             <Footer />
             <div className="fixed  bottom-0 right-0 p-4">
               <Link href={'https://api.whatsapp.com/send/?phone=%2B8801897677943&text=Hello'}>

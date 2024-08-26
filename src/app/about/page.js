@@ -10,7 +10,7 @@ export default function About() {
     <>
       <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
         <AboutHero />
-        {/*    <OurMission /> */}
+        {/*   <OurMission/> */}
         <AboutFeature />
       </div>
     </>
