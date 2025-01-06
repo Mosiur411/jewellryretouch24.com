@@ -24,7 +24,7 @@ export default function HomeImageCarousel({ imgData }) {
                         <img
                             className="h-80 w-full rounded-b-xl text-xl"
                             src={icon}
-                            alt="jewellryretouch24"
+                            alt="Photoeditspecialist"
                         />
                     </SwiperSlide>
                 ))}

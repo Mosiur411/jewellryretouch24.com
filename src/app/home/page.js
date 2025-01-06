@@ -1,13 +1,14 @@
 import Reviews from "@/components/home/reviews/page";
 import Blog from "../blog/page";
 import OuseTems from "@/components/ourTems/OurTems";
-import HomeGridImage from "@/components/home/homeGridImage";
-import Image from "next/image";
 import Banner from "@/components/home/banner/Banner";
+import ServiceCard from "@/components/shared/card/serviceCard";
+import services from '/public/assect/json/services.json'
+
 export const metadata = {
-  title: "JewellryRetouch24 - Professional Jewelry Retouching Services",
+  title: "Photoeditspecialist - Professional Jewelry Retouching Services",
   description:
-    "Welcome to JewellryRetouch24, your trusted source for professional jewelry retouching services. Enhance the beauty of your jewelry images with our expert retouching solutions.",
+    "Welcome to Photoeditspecialist, your trusted source for professional jewelry retouching services. Enhance the beauty of your jewelry images with our expert retouching solutions.",
 };
 
 export default function Home() {
@@ -17,8 +18,11 @@ export default function Home() {
         className='w-100 md:h-[90vh]'
       /> */}
       <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
-         <Banner/>
-        <HomeGridImage />
+        <Banner />
+        <div className="xl:w-8/12 mx-auto ">
+          {services?.slice(0, 6).map(service => <ServiceCard service={service} key={service?.id} />)}
+        </div>
+        {/* <HomeGridImage /> */}
         <Reviews />
         <Blog />
         <OuseTems />

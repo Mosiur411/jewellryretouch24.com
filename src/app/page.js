@@ -2,8 +2,8 @@
 import Home from "./home/page";
 
 export const metadata = {
-  title: "JewellryRetouch24 - Professional Jewelry Retouching Services",
-  description: "Welcome to JewellryRetouch24, your trusted source for professional jewelry retouching services. Enhance the beauty of your jewelry images with our expert retouching solutions.",
+  title: "Photoeditspecialist - Professional Jewelry Retouching Services",
+  description: "Welcome to Photoeditspecialist, your trusted source for professional jewelry retouching services. Enhance the beauty of your jewelry images with our expert retouching solutions.",
 };
 
 

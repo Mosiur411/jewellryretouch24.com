@@ -5,6 +5,6 @@ export default function robots() {
         allow: '/',
         disallow: '/private/',
       },
-      sitemap: 'https://jewelleryretouch24.com/sitemap.xml',
+      sitemap: 'https://photoeditspecialist.com/sitemap.xml',
     }
   }

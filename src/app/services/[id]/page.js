@@ -18,7 +18,6 @@ const SingleService = () => {
                 <SingleServiceLeft singleService={singleService} />
                 <SingleServiceRight singleService={singleService} />
             </div>
-
         </div>
 
     );

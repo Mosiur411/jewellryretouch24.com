@@ -32,7 +32,7 @@ export async function POST(request) {
  */
     /*        const info = await transporter.sendMail({
             from: 'mdhasanmia932@gmail.com',
-            to: 'jewelleryretouch24bd@gmail.com',
+            to: 'photoeditspecialist@gmail.com',
             subject: 'New Form Submission',
             html: `
                 <p>First Name: ${firstName}</p>
@@ -51,15 +51,15 @@ export async function POST(request) {
       host: "smtp.gmail.com",
       service: "gmail",
       auth: {
-        user: "jewelleryretouch24bd@gmail.com",
+        user: "photoeditspecialist@gmail.com",
         pass: "ijssodszmprhrlzz",
       },
     });
 
     await transporterClientSent.sendMail({
-      from: "jewelleryretouch24bd@gmail.com",
-      to: "jewelleryretouch24bd@gmail.com",
-      subject: "Welcome to JewelleryRetouch24",
+      from: "photoeditspecialist@gmail.com",
+      to: "photoeditspecialist@gmail.com",
+      subject: "Welcome to Photoeditspecialist",
       html: `
             <p>First Name: ${firstName}</p>
             <p>Last Name: ${lastName}</p>
@@ -71,7 +71,7 @@ export async function POST(request) {
         `,
       /*  html: `
                 <p>Dear ${firstName}</p>
-                <p>Welcome to JewelleryRetouch24! We're thrilled to have you as a member of our community.</p>
+                <p>Welcome to photoeditspecialist! We're thrilled to have you as a member of our community.</p>
             ` */
     });
 

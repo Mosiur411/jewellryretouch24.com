@@ -39,55 +39,17 @@ export default function Menu() {
                     {/* Services submenu */}
                     <div onMouseEnter={() => setSubmenu(true)} onMouseLeave={() => setSubmenu(false)} className={`absolute rounded  -left-40 lg:w-96 w-80 text-[14px] font-medium  flex flex-col transition-all ease-linear duration-100 ${submenu ? "visible top-[3.8rem] opacity-100" : "invisible top-[4.5rem] opacity-0"} `}>
                         <div className='relative'>
-                            <Link
-                                onMouseEnter={() => setSubItem(true)}
-                                onMouseLeave={() => setSubItem(false)}
-                                className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b flex items-center justify-between '
-                                href={'/clippingPathService'}>Jewelry Retouching  Service  <MdKeyboardArrowDown />
-                            </Link>
+                          
 
                             {/* For submenu submenus */}
-                            <div onMouseEnter={() => setSubItem(true)} onMouseLeave={() => setSubItem(false)} className={`absolute rounded  lg:-right-96 -right-80 lg:w-96 w-80 text-[14px] font-medium  flex flex-col transition-all ease-linear duration-150 ${subItem ? "visible top-0 opacity-100" : "invisible top-[.2rem] opacity-0"} `}>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/brass-ligth'}>Brass Light 
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/earring'}>Earring
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/necklace'}>Necklace
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/ring'}>Ring
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/color-changing'}>Color Changing
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-200 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/watche'}>Watches
-                                </Link>
-                            </div>
-
-                        </div>
-                        <div className='relative'>
-                            <Link
-                                onMouseEnter={() => OthersetSubItem(true)}
-                                onMouseLeave={() => OthersetSubItem(false)}
-                                className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b flex items-center justify-between '
-                                href={'/services/clipping-path-service'}>Other Service<MdKeyboardArrowDown />
-                            </Link>
-
-                            {/* For submenu submenus */}
-                            <div onMouseEnter={() => OthersetSubItem(true)} onMouseLeave={() => OthersetSubItem(false)} className={`absolute rounded  lg:-right-96 -right-80 lg:w-96 w-80 text-[14px] font-medium  flex flex-col transition-all ease-linear duration-150 ${OthersubItem ? "visible top-0 opacity-100" : "invisible top-[.2rem] opacity-0"} `}>
+                            <div  className={`absolute rounded  lg:-right-52 -right-40 lg:w-96 w-80 text-[14px] font-medium  flex flex-col transition-all ease-linear duration-150 ${setSubmenu ? "visible top-0 opacity-100" : "invisible top-[.2rem] opacity-0"} `}>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/clipping-path-service'}>Photo Retouching Service
+                                    href={'/services/clipping-path-service'}>Clipping Path Service
+                                </Link>
+                                <Link
+                                    className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
+                                    href={'/services/photo-retouching-service'}>Photo Retouching Service
                                 </Link>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
@@ -95,11 +57,7 @@ export default function Menu() {
                                 </Link>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/golden-sunset-dining'}>Image Manipulation
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/photo-retouching-service'}>Neck Joint Service
+                                    href={'/services/golden-sunset-dining'}>Image Manipulation / Neck Joint 
                                 </Link>
                                 <Link
                                     className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '

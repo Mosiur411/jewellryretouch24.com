@@ -2,8 +2,8 @@ import PortfolioImageContainer from "@/components/portfolio/PortfolioImageContai
 import SectionHeader from "@/components/shared/sectionHeader/page";
 
 export const metadata = {
-    title: "Portfolio - JewellryRetouch24",
-    description: "Explore JewellryRetouch24's portfolio of stunning jewelry retouching projects. See examples of our work and discover the quality of our retouching solutions.",
+    title: "Portfolio - Photoeditspecialist",
+    description: "Explore Photoeditspecialist portfolio of stunning jewelry retouching projects. See examples of our work and discover the quality of our retouching solutions.",
   };
   
 export default function page() {

@@ -2,24 +2,23 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 // Images
-import service1 from '/public/assect/service/service1.jpg'
-import service2 from '/public/assect/service/service2.jpg'
-import service3 from '/public/assect/service/service3.jpg'
-import service4 from '/public/assect/service/service4.jpg'
-import service5 from '/public/assect/service/service5.jpg'
+import service1 from '/public/assect/home/1.jpg'
+import service2 from '/public/assect/home/2.jpg'
+import service3 from '/public/assect/home/3.jpg'
+import service4 from '/public/assect/home/4.jpg'
 
 export default function ImageGrids() {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const images = [
-        service1, service2, service3, service4, service5
+        service1, service2, service3, service4
     ];
 
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-        }, 1000);
+        }, 2000);
         return () => clearInterval(interval);
     }, []);
 
@@ -28,7 +27,7 @@ export default function ImageGrids() {
     return (
         <>
             <Image data-aos="fade-right" src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`}
-                className='w-100 h-[70vh]'
+                className='w-100 '
             />
         </>
 

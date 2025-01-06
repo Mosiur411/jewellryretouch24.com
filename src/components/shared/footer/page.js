@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://jewelleryretouch24.com/" className="flex items-center">
+            <a href="https://photoeditspecialist.com/" className="flex items-center">
               <Image src={logo} alt="logo" className="" />
             </a>
           </div>
@@ -27,22 +27,22 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services</h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/services/clipping-path-service" className="hover:underline ">Clipping Path Service</a>
+                  <a href="https://photoeditspecialist.com/services/clipping-path-service" className="hover:underline ">Clipping Path Service</a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/services/photo-retouching-service" className="hover:underline">Photo Retouching Service</a>
+                  <a href="https://photoeditspecialist.com/services/photo-retouching-service" className="hover:underline">Photo Retouching Service</a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/services/shadow-service" className="hover:underline">Shadow Service</a>
+                  <a href="https://photoeditspecialist.com/services/shadow-service" className="hover:underline">Shadow Service</a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/services/golden-sunset-dining" className="hover:underline">Image Manipulation Service</a>
+                  <a href="https://photoeditspecialist.com/services/golden-sunset-dining" className="hover:underline">Image Manipulation Service</a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/services/majestic-mountain-trek" className="hover:underline">Image Maskin Service</a>
+                  <a href="https://photoeditspecialist.com/services/majestic-mountain-trek" className="hover:underline">Image Maskin Service</a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/services/garden-of-tranquility" className="hover:underline">Photo Color Correction Service
+                  <a href="https://photoeditspecialist.com/services/garden-of-tranquility" className="hover:underline">Photo Color Correction Service
 </a>
                 </li>
               </ul>
@@ -51,13 +51,13 @@ export default function Footer() {
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Payment Method</h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/" className="hover:underline">Paypal</a>
+                  <a href="https://photoeditspecialist.com/" className="hover:underline">Paypal</a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/" className="hover:underline">Bank Transfer</a>
+                  <a href="https://photoeditspecialist.com/" className="hover:underline">Bank Transfer</a>
                 </li>
                 <li className="mb-4">
-                  <a href="https://jewelleryretouch24.com/" className="hover:underline">Credit/Debit Card</a>
+                  <a href="https://photoeditspecialist.com/" className="hover:underline">Credit/Debit Card</a>
                 </li>
                 <Image src={payment} alt="payment" />
               </ul>
@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://jewelleryretouch24.com/" className="hover:underline">jewelleryretouch24</a>. All Rights Reserved.
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://photoeditspecialist.com/" className="hover:underline">photoeditspecialist</a>. All Rights Reserved.
           </span>
 
 

@@ -33,7 +33,7 @@ export default function AboutHero() {
                         <Title text='What You Should Know About Us' />
                     </div>
                     <p className="my-5 mb-3  dark:text-gray-300">
-                        jewellery retouch is an online based digital image editing studio that outsources and performs a number of services provider in Bangladesh. Number one quality full image editing service like image processing, graphic design multi path, photo restoration, Masking, Color Correction, Gost Retouching or Ghost retouching and online Clipping path services provider.We provide you image processing services at low costs because we understand how expensive it is to do it on your own.
+                    Photoeditspecialist retouch is an online based digital image editing studio that outsources and performs a number of services provider in Bangladesh. Number one quality full image editing service like image processing, graphic design multi path, photo restoration, Masking, Color Correction, Gost Retouching or Ghost retouching and online Clipping path services provider.We provide you image processing services at low costs because we understand how expensive it is to do it on your own.
                     </p>
                     <p className="mb-8 dark:text-gray-300  ">
                         The volume of work you have should not be part of your problem you can just relax. We have highly experience a big team who will treat your job like our own and ensure that you job is done within your own deadlines.

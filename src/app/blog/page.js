@@ -1,8 +1,8 @@
 import BlogsContainer from "@/components/blog/blogsContainer";
 import SectionHeader from "@/components/shared/sectionHeader/page";
 export const metadata = {
-  title: "Blog - JewellryRetouch24",
-  description: "Explore the latest articles and insights from JewellryRetouch24's blog. Learn about jewelry retouching tips, industry trends, and more.",
+  title: "Blog - Photoeditspecialist",
+  description: "Explore the latest articles and insights from Photoeditspecialist blog. Learn about jewelry retouching tips, industry trends, and more.",
 };
 export default function Blog() {
   return (

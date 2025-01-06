@@ -8,7 +8,7 @@ export default function PricingCardsConatiner() {
                 <div className=" lg:flex grid md:grid-cols-2  gap-10 ">
                     <PricingCard
                         type="Starter"
-                        price="$0.99"
+                        price="$0.49"
                         description="Perfect for using in a Starter website or a client project."
                         buttonText="Choose Starter"
                     >
@@ -17,12 +17,12 @@ export default function PricingCardsConatiner() {
                         <List>100% Client</List>
                         <List>1 Day Free Storage</List>
                         <List>Per day 500 images</List>
-                        <List>Starting at $0.99</List>
+                        <List>Starting at $0.49</List>
                     </PricingCard>
 
                     <PricingCard
                         type="Pro"
-                        price="$2.50"
+                        price="$1.20"
                         description="Perfect for using in a Starter website or a client project."
                         buttonText="Choose Business"
                         active
@@ -32,12 +32,12 @@ export default function PricingCardsConatiner() {
                         <List>100% Client</List>
                         <List>1 Day Free Storage</List>
                         <List>Per day 500 images</List>
-                        <List>Starting at $2.50</List>
+                        <List>Starting at $1.20</List>
                     </PricingCard>
 
                     <PricingCard
                         type="Elite"
-                        price="$8.00"
+                        price="$4.00"
                         description="Perfect for using in a Starter website or a client project."
                         buttonText="Choose Professional"
                     >
@@ -46,7 +46,7 @@ export default function PricingCardsConatiner() {
                         <List>100% Client</List>
                         <List>1 Day Free Storage</List>
                         <List>Per day 500 images</List>
-                        <List>Starting at $8.00</List>
+                        <List>Starting at $4.00</List>
                     </PricingCard>
                 </div>
             </div>

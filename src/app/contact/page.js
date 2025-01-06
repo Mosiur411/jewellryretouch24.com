@@ -2,8 +2,8 @@ import ContactFrom from "@/components/contact/contactFrom";
 import ContactInfo from "@/components/contact/contactInfo";
 import SectionHeader from "@/components/shared/sectionHeader/page";
 export const metadata = {
-  title: "Contact Us - JewellryRetouch24",
-  description: "Get in touch with JewellryRetouch24 for inquiries, collaborations, or to learn more about our professional jewelry retouching services.",
+  title: "Contact Us - Photoeditspecialist",
+  description: "Get in touch with Photoeditspecialist for inquiries, collaborations, or to learn more about our professional jewelry retouching services.",
 };
 
 export default function Contact() {

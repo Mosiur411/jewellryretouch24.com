@@ -7,8 +7,8 @@ import blogBanner from '/public/assect/image/blog/blogbanner.png'
 import SingleBlogDetails from '@/components/blog/SingleBlogDetails'
 
 export const metadata = {
-    title: "Blog - JewellryRetouch24",
-    description: "Explore the latest articles and insights from JewellryRetouch24's blog. Learn about jewelry retouching tips, industry trends, and more.",
+    title: "Blog - Photoeditspecialist",
+    description: "Explore the latest articles and insights from Photoeditspecialist blog. Learn about jewelry retouching tips, industry trends, and more.",
 };
 
 export default function page() {
