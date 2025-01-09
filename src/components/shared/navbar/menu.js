@@ -1,77 +1,72 @@
 'use client'
-
 import Link from 'next/link';
-import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 
 // Components
 import RoundedBtn from '../roundedBtn/page';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 
-
 export default function Menu() {
     const pathname = usePathname();
     const isPathActive = (menuLink) => {
         return pathname === menuLink || pathname.startsWith(`${menuLink}/`);
     };
-    const [submenu, setSubmenu] = useState(false)
-    const [subItem, setSubItem] = useState(false)
-    const [OthersubItem, OthersetSubItem] = useState(false)
-
 
     return (
-        <div className='md:flex hidden xl:gap-32 gap-3  items-center '>
-            <div
-                className={`relative  md:flex hidden lg:gap-10  gap-4 items-center  `}
-            >
+        <div className='md:flex hidden xl:gap-32 gap-3 items-center'>
+            <div className={`relative md:flex hidden lg:gap-10 gap-4 items-center`}>
                 <Link
                     className={`text-[14px] hover:text-[#748E63] dark:hover:text-[#F9B572] font-medium ${isPathActive('/') ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
                     href={'/'}>Home
                 </Link>
-                <div className='relative'>
+                <div className='relative group'>
                     <Link
-                        onMouseEnter={() => setSubmenu(true)}
-                        onMouseLeave={() => setSubmenu(false)}
-                        className={`text-[14px] hover:text-[#748E63] dark:hover:text-[#F9B572]  py-5 font-medium flex items-center gap-1.5  ${isPathActive('/services') ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        href={'/services'}>Services <MdKeyboardArrowDown />
+                        className={`text-[14px] hover:text-[#748E63] dark:hover:text-[#F9B572] py-5 font-medium flex items-center gap-1.5 ${isPathActive('/services') ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
+                        href={'/services'}
+                    >
+                        Services <MdKeyboardArrowDown />
                     </Link>
 
                     {/* Services submenu */}
-                    <div onMouseEnter={() => setSubmenu(true)} onMouseLeave={() => setSubmenu(false)} className={`absolute rounded  -left-40 lg:w-96 w-80 text-[14px] font-medium  flex flex-col transition-all ease-linear duration-100 ${submenu ? "visible top-[3.8rem] opacity-100" : "invisible top-[4.5rem] opacity-0"} `}>
-                        <div className='relative'>
-                          
-
-                            {/* For submenu submenus */}
-                            <div  className={`absolute rounded  lg:-right-52 -right-40 lg:w-96 w-80 text-[14px] font-medium  flex flex-col transition-all ease-linear duration-150 ${setSubmenu ? "visible top-0 opacity-100" : "invisible top-[.2rem] opacity-0"} `}>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/clipping-path-service'}>Clipping Path Service
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/photo-retouching-service'}>Photo Retouching Service
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/shadow-service'}>Shadow Service
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/golden-sunset-dining'}>Image Manipulation / Neck Joint 
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/majestic-mountain-trek'}>Image Maskin Service
-                                </Link>
-                                <Link
-                                    className='py-3 px-3 w-full bg-gray-100 dark:bg-[#1c1c1c] dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-[#00000094] dark:border-gray-600 border-b '
-                                    href={'/services/garden-of-tranquility'}>Photo Color Correction Service
-                                </Link>
-
-                            </div>
-
+                    <div className="absolute left-0 hidden group-hover:block top-[3.8rem] opacity-0 group-hover:opacity-100 transition-all ease-linear duration-150">
+                        <div className="w-[250px] flex flex-col space-y-2 bg-white dark:bg-[#1c1c1c] shadow-lg rounded-md">
+                            <Link
+                                className=" px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                                href={'/services/clipping-path-service'}
+                            >
+                                Clipping Path Service
+                            </Link>
+                            <Link
+                                className="px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                                href={'/services/photo-retouching-service'}
+                            >
+                                Photo Retouching Service
+                            </Link>
+                            <Link
+                                className=" px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                                href={'/services/shadow-service'}
+                            >
+                                Shadow Service
+                            </Link>
+                            <Link
+                                className=" px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                                href={'/services/golden-sunset-dining'}
+                            >
+                                Image Manipulation / Neck Joint
+                            </Link>
+                            <Link
+                                className=" px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                                href={'/services/majestic-mountain-trek'}
+                            >
+                                Image Masking Service
+                            </Link>
+                            <Link
+                                className="px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                                href={'/services/ecommerce-image-editing'}
+                            >
+                                Ecommerce Image Editing
+                            </Link>
                         </div>
-
                     </div>
                 </div>
                 <Link
@@ -87,11 +82,11 @@ export default function Menu() {
                     href={'/blog'}>Blog
                 </Link>
                 <Link
-                    className={`text-[14px] hover:text-[#748E63] dark:hover:text-[#F9B572] py-5  font-medium ${isPathActive('/portfolio') ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
+                    className={`text-[14px] hover:text-[#748E63] dark:hover:text-[#F9B572] py-5 font-medium ${isPathActive('/portfolio') ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
                     href={'/portfolio'}>Portfolio
                 </Link>
                 <Link
-                    className={`text-[14px] hover:text-[#748E63] dark:hover:text-[#F9B572] py-5  font-medium ${isPathActive('/about') ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
+                    className={`text-[14px] hover:text-[#748E63] dark:hover:text-[#F9B572] py-5 font-medium ${isPathActive('/about') ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
                     href={'/about'}>About
                 </Link>
             </div>

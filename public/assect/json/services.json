@@ -235,5 +235,36 @@
         "star": "4"
       }
     ]
-  }
+  },
+  {
+    "id": 7,
+    "title": "Ecommerce image editing",
+    "slug": "ecommerce-image-editing",
+    "description":"Image editing in general has branched out to suit the needs of various fields and Ecommerce is nothing new. The new and upcoming online marketplace allows no physical inspection of products and it is up to you to use the best product images to get those deals. Ecommerce listings require images that have clarity as well as the ability to highlight even the tiniest details which could be the factor that could tip the scales in your favor. We have worked with renowned clients all over the world and have edited images for countless products for listings so we know our game and we know what your product images need to sell out immediately. If you’re not convinced by just words, feel free to take a quick look at some of our most revered edits. If that doesn’t convince you, allow us to prove ourselves as we provide you with a 5 image free trial and win your approval.Ecommerce product image editing services make sure your products are properly and clearly shown as are the requirements by multiple Ecommerce platforms such as Amazon, Ebay and Woocommerce. These sites have maintained a standard of image quality that every Ecommerce store needs to abide by and we take that standard a step further with our editing techniques that adds aesthetics as well as clarity to your product images.",
+    "prices": [{
+      "old_price": "95",
+      "new_price": "80"
+    }
+  ],
+  "images": [
+    "e-comer-photo/1.jpg",
+    "e-comer-photo/2.jpg"
+  ],
+  "category": "Gardens",
+  "status": "Active",
+  "client_feedback": [
+    {
+      "name": "Lily Serene",
+      "image": "client_image_url_11",
+      "description": "A garden of calm and beauty!",
+      "star": "5"
+    },
+    {
+      "name": "Oliver Verdant",
+      "image": "client_image_url_12",
+      "description": "Tranquility like no other.",
+      "star": "4"
+    }
+  ]
+}
 ]

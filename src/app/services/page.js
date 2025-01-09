@@ -15,7 +15,7 @@ export default function Service() {
         <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
             <SectionHeader lable='Our Services' title='Our Awesome Services' shotDetails='Elevate your photos with precision edits. Professional photo editing services at Photoeditspecialist. Unleash the full potential of your visuals.' />
             <div className="xl:w-8/12 mx-auto ">
-                {services?.slice(0, 6).map(service => <ServiceCard service={service} key={service?.id} />)}
+                {services?.slice(0, 7).map(service => <ServiceCard service={service} key={service?.id} />)}
             </div>
         </div>
     )

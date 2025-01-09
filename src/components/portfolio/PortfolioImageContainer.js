@@ -1,20 +1,37 @@
+import Image from 'next/image';
+
 export default function PortfolioImageContainer() {
+    const images = [
+        '/assect/image/portfolio/1.jpg',
+        '/assect/image/portfolio/2.jpg',
+        '/assect/image/portfolio/4.jpg',
+        '/assect/image/portfolio/5.jpg',
+        '/assect/image/portfolio/6.jpg',
+        '/assect/image/portfolio/7.jpg',
+        '/assect/image/portfolio/8.jpg',
+        '/assect/image/portfolio/9.jpg',
+        '/assect/image/portfolio/10.jpg',
+        '/assect/image/portfolio/11.jpg',
+        '/assect/image/portfolio/12.jpg',
+        '/assect/image/portfolio/13.jpg',
+        '/assect/image/portfolio/14.jpg',
+        '/assect/image/portfolio/15.jpg',
+        '/assect/image/portfolio/16.jpg',
+        '/assect/image/portfolio/17.jpg',
+    ];
+
     return (
-        <div className=' grid md:grid-cols-3 sm:grid-cols-2 md:gap-10 gap-5'>
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/TBVJYt9/Y0A8265.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/F6BQQrK/22.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/CWKkvkN/2023-11-14-14-28-09-B-R8-S4.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/Cwh5x6H/DSC09009.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/HxtGsfy/E550-Sapphire.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/kXTZCgR/FR-20404356-1.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/BLsVGRn/IMG-1938.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/gDTJxQd/IMG-1940.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/x1xG02J/IMG-1964.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/wYtS8Ks/IMG-2035.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/8cty3Jz/IMG-2059.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/kGyVqKr/IMG-2083.png'} alt='Photoeditspecialist' />
-            <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/PtxjvgR/IMG-2089.png'} alt='Photoeditspecialist' />
-          {/*   <img className='h-80 w-full rounded-lg' src={'https://i.ibb.co/vZKW4XT/SARA4611.png'} alt='Photoeditspecialist' /> */}
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 md:gap-10 gap-5">
+            {images.map((src, index) => (
+                <Image
+                    key={index}
+                    className="rounded-lg"
+                    src={src}
+                    alt={`Portfolio Image ${index + 1}`}
+                    width={300}
+                    height={320} 
+                />
+            ))}
         </div>
-    )
+    );
 }
