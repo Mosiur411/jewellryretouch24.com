@@ -14,9 +14,10 @@ export default function ServiceCarousel({ imgData }) {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 }}
-                autoplay={{ delay: 1000, disableOnInteraction: false }}
+                autoplay={{ delay: 1500, disableOnInteraction: true }}
                 modules={[Navigation, Autoplay]}
                 className="mySwiper"
+                loop={true} 
             >
 
                 

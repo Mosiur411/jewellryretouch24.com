@@ -12,6 +12,7 @@ import { Provider } from "react-redux";
 import { store } from "@/features/store";
 import Image from "next/image";
 import Link from "next/link";
+import CompanyConnect from "@/components/companyConnect/CompanyConnect";
 
 
 export default function RootLayout({ children }) {
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
             <div className="z-40">
               {children}
             </div>
+            <CompanyConnect/>
             <Footer />
             <div className="fixed  bottom-0 right-0 p-4">
               <Link href={'https://api.whatsapp.com/send/?phone=%2B8801897677943&text=Hello'}>
