@@ -18,6 +18,16 @@ export default function PortfolioImageContainer() {
         '/assect/image/portfolio/15.jpg',
         '/assect/image/portfolio/16.jpg',
         '/assect/image/portfolio/17.jpg',
+        '/assect/image/portfolio/18.jpg',
+        '/assect/image/portfolio/19.jpg',
+        '/assect/image/portfolio/20.jpg',
+        '/assect/image/portfolio/21.jpg',
+        '/assect/image/portfolio/22.jpg',
+        '/assect/image/portfolio/23.jpg',
+        '/assect/image/portfolio/24.jpg',
+        '/assect/image/portfolio/25.jpg',
+        '/assect/image/portfolio/26.jpg',
+        '/assect/image/portfolio/27.jpg',
     ];
 
     return (

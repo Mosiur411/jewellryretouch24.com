@@ -69,76 +69,44 @@ export default function MobileMenu() {
 
                   {
                     submenu && <div>
-                      <div className='relative'>
-                        <li
-                          onClick={() => setSubItem(!subItem)}
-                          className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center justify-between w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        > <div className='flex items-start gap-2'><PiSubtractSquare className='mt-1' />Jewelry Retouching  Service </div> <MdKeyboardArrowDown />
-                        </li>
+                      <div className='relative flex flex-col items-start gap-3 '>
+                        <Link
+                          className=" px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                          href={'/services/clipping-path-service'}
+                        >
+                          Clipping Path Service
+                        </Link>
+                        <Link
+                          className="px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                          href={'/services/photo-retouching-service'}
+                        >
+                          Photo Retouching Service
+                        </Link>
+                        <Link
+                          className=" px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                          href={'/services/shadow-service'}
+                        >
+                          Shadow Service
+                        </Link>
+                        <Link
+                          className=" px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                          href={'/services/golden-sunset-dining'}
+                        >
+                          Image Manipulation / Neck Joint
+                        </Link>
+                        <Link
+                          className=" px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                          href={'/services/majestic-mountain-trek'}
+                        >
+                          Image Masking Service
+                        </Link>
+                        <Link
+                          className="px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                          href={'/services/ecommerce-image-editing'}
+                        >
+                          Ecommerce Image Editing
+                        </Link>
 
-                        {
-                          subItem &&
-                          <div onClick={() => setSubItem(!subItem)} className={`  px-3 rounded w-full h-fit text-[14px] font-medium  flex flex-col transition-all ease-linear duration-150 `}>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/basicClippingPath'}><PiSubtractBold />Brass Light
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/simpleClippingPath'}><PiSubtractBold />Earring
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/mediumClippingPaths'}><PiSubtractBold />Necklace
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/complexClippingPath'}><PiSubtractBold />Ring
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'superComplexClippingPath'}><PiSubtractBold />Color Changing
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'superComplexClippingPath'}><PiSubtractBold />Watches
-                            </Link>
-                          </div>
-                        }
-                        <li
-                          onClick={() => OthersetSubItem(!OthersubItem)}
-                          className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center justify-between w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                        > <div className='flex items-start gap-2'><PiSubtractSquare className='mt-1' />Other Service</div> <MdKeyboardArrowDown />
-                        </li>
-                        {
-                          OthersubItem && <div onClick={() => OthersetSubItem(!subItem)} className={` px-3 rounded w-full h-fit text-[14px] font-medium  flex flex-col transition-all ease-linear duration-150 `}>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/services/clipping-path-service'}><PiSubtractBold />Photo Retouching Service
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/services/shadow-service'}><PiSubtractBold />Shadow Service
-                            </Link>  
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/services/golden-sunset-dining'}><PiSubtractBold />Image Manipulation
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/services/photo-retouching-service'}><PiSubtractBold />Neck Joint Service
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/services/majestic-mountain-trek'}><PiSubtractBold />Image Maskin Service
-                            </Link>
-                            <Link
-                              className={`text-[14px] hover:text-[#748E63] py-4 dark:hover-text-[#F9B572] font-medium  flex items-center  gap-2 w-full  ${pathname === '/pricing' ? 'text-[#748E63] dark:text-[#F9B572]' : 'text-black dark:text-gray-300'}`}
-                              href={'/services/garden-of-tranquility'}><PiSubtractBold />Photo Color Correction Service
-                            </Link>
-                          </div>
-
-                        }
                       </div>
                     </div>
                   }
