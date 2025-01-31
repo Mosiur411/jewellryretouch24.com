@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body className="bg-white dark:bg-[#121212]">
         <Provider store={store}>
           <div>
-            <div className="sticky top-0 container mx-auto z-50  lg:px-10 sm:px-6 px-5 backdrop-blur-md">
+            <div className="sticky top-0 container mx-auto z-50  lg:px-10 sm:px-6 px-5 bg-white">
               <Navbar />
             </div>
             <div className="z-40">

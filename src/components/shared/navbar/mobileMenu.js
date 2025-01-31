@@ -46,7 +46,7 @@ export default function MobileMenu() {
       <RiMenuUnfoldFill onClick={() => setOpen(true)} className='text-lg dark:text-white' />
 
       <div onClick={() => setOpen(false)} className={`fixed w-full h-screen top-0 left-0 dark:bg-black bg-gray-300 bg-opacity-25 dark:bg-opacity-25 transition-all ease-linear duration-300 ${open ? "visible opacity-100" : "invisible opacity-0"}`}>
-        <div onClick={(e) => e.stopPropagation()} className={`fixed top-0 w-11/12 sm:w-2/3 pt-5 pb-10 px-10 h-screen bg-white dark:bg-[#1c1c1c] dark:bg-opacity-50 bg-opacity-50 backdrop-blur-lg transition-all ease-linear duration-300  ${open ? "left-0 visible " : "-left-[33rem] invisible"}`}>
+        <div onClick={(e) => e.stopPropagation()} className={`fixed top-0 w-11/12 sm:w-2/3 pt-5 pb-10 px-10 h-screen bg-white dark:bg-[#1c1c1c] dark:bg-opacity-50 bg-opacity-50 backdrop-blur-2xl transition-all ease-linear duration-300  ${open ? "left-0 visible " : "-left-[33rem] invisible"}`}>
           <div className='flex flex-col  h-full '>
             <div className='flex justify-center mb-10'>
               <Logo />

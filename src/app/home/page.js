@@ -4,6 +4,7 @@ import OuseTems from "@/components/ourTems/OurTems";
 import Banner from "@/components/home/banner/Banner";
 import ServiceCard from "@/components/shared/card/serviceCard";
 import services from '/public/assect/json/services.json'
+import SectionHeader from "@/components/shared/sectionHeader/page";
 
 export const metadata = {
   title: "Photoeditspecialist - Professional Jewelry Retouching Services",
@@ -19,6 +20,9 @@ export default function Home() {
       /> */}
       <div className="relative container mx-auto  lg:px-10 sm:px-6 px-5  ">
         <Banner />
+        <SectionHeader lable='Our services'
+          title='Our Awesome Services'
+          shotDetails='' />
         <div className="xl:w-8/12 mx-auto ">
           {services?.slice(0, 6).map(service => <ServiceCard service={service} key={service?.id} />)}
         </div>
