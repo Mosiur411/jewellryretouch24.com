@@ -23,7 +23,7 @@ export default function Home() {
         <SectionHeader lable='Our services'
           title='Our Awesome Services'
           shotDetails='' />
-        <div className="xl:w-8/12 mx-auto ">
+        <div className="xl:w-7/12 mx-auto ">
           {services?.slice(0, 6).map(service => <ServiceCard service={service} key={service?.id} />)}
         </div>
         {/* <HomeGridImage /> */}

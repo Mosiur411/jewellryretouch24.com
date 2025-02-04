@@ -52,13 +52,13 @@ export async function POST(request) {
       service: "gmail",
       auth: {
         user: "photoeditspecialist@gmail.com",
-        pass: "ijssodszmprhrlzz",
+        pass: "kqzexpikmwcathnj",
       },
     });
 
     await transporterClientSent.sendMail({
       from: "photoeditspecialist@gmail.com",
-      to: "photoeditspecialist@gmail.com",
+      to: email,
       subject: "Welcome to Photoeditspecialist",
       html: `
             <p>First Name: ${firstName}</p>

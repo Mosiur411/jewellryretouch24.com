@@ -8,7 +8,7 @@ const OuseTems = () => {
     return (
         <section className="my-5">
             <SectionHeader lable='Our Articles' title='Our  Office' shotDetails='Meet the talented individuals who drive our vision forward, bringing diverse expertise and passion to every project' />
-            <div className="grid xl:grid-cols-3 md:grid-cols-2 lg:gap-14 gap-5 2xl:px-20 xl:px-0 lg:px-10 md:px-0 sm:px-10 ">
+            <div className="grid xl:grid-cols-3 md:grid-cols-2 gap-14  md:gap-32 2xl:px-20 xl:px-0 lg:px-10 md:px-0 sm:px-10 ">
                 <OurTems name='MD MOSTAFIZUR RAHMAN' position=' (CEO)'
                     img={seo}
                     content={`

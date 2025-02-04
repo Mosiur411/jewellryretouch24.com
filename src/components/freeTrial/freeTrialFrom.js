@@ -4,7 +4,6 @@ import Input from '../shared/formElement/input';
 import Textarea from '../shared/formElement/textarea';
 import servicesList from '/public/assect/json/servicesList.json';
 import Select from '../shared/formElement/select';
-import Upload from '../shared/formElement/upload';
 
 export default function FreeTrialFrom() {
     const [loading, setLoading] = useState(false)
@@ -75,14 +74,14 @@ export default function FreeTrialFrom() {
                         servicesList?.map(service => <Select key={service?.id} service={service} onChange={handleChange} />)
                     }
                 </div>
-                <Input type='text' idFor='fileLink' name='fileLink' label='File Link' placeholder='Give me file link ' value={formData.firstName} onChange={handleChange} />
+                <Input type='text' idFor='fileLink' name='fileLink' label='File Link' placeholder='Give me file link ' value={formData.fileLink} onChange={handleChange} />
                 {/*  <Upload /> */}
                 <Textarea idFor='Instruction' name='instruction' label='Instruction' placeholder='Your Instruction here . . .' value={formData.instruction} onChange={handleChange} />
                 <button
                     className={`
                ${loading ? 'cursor-not-allowed' : ""}
                mt-10 text-[14px] font-medium text-white px-5 pb-0.5 h-8 flex items-center justify-center border border-[#748E63] dark:border-[#F9B572]  rounded-full hover:bg-[#748E63] dark:hover:bg-[#F9B572]  bg-[#748E63]   dark:bg-[#F9B572] dark:hover:bg-transparent dark:text-black  dark:hover:text-[#F9B572] hover:bg-transparent hover:text-[#789365]  `}
-                    type="submit">{loading ? 'Loading' : "Submit"}</button>
+                    type="submit">{loading ? 'Loading..' : "Submit"}</button>
             </form>
         </div>
     )
