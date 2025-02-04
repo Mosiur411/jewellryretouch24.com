@@ -69,10 +69,6 @@ export async function POST(request) {
             <p>File Link: ${fileLink}</p>
             <p>Instruction: ${instruction}</p>
         `,
-      /*  html: `
-                <p>Dear ${firstName}</p>
-                <p>Welcome to photoeditspecialist! We're thrilled to have you as a member of our community.</p>
-            ` */
     });
 
     return NextResponse.json({ success: true });
