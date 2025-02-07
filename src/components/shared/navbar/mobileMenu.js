@@ -106,7 +106,12 @@ export default function MobileMenu() {
                         >
                           Ecommerce Image Editing
                         </Link>
-
+                        <Link
+                          className="px-3 text-[14px] font-medium hover:bg-gray-200 dark:hover:bg-[#00000094] border-b block"
+                          href={'/services/garden-of-tranquility'}
+                        >
+                          Photo Color Correction
+                        </Link>
                       </div>
                     </div>
                   }

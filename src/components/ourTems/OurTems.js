@@ -15,7 +15,7 @@ const OuseTems = () => {
                 Hello, My name is Mostafizur Rahman! I'm a freelance graphics designer. I have a strong passion for the creativity and discipline that goes into graphics design. Keeping in mind scalability and creative design. I've worked with companies of all shapes and sizes, so contact me if.
                 `}
                 />
-                <OurTems name='MUHAMMAD HASAN' position=' (FOUNDER)'
+                <OurTems name='JAHANGIR ALAM' position=' (FOUNDER)'
                     img={faunder}
                     content="We're proud to introduce you to the visionary behind photoeditspecialist, Jahangir Alam. With a passion for both image and photography, Jahangir Alam founded photoeditspecialist with the gold of revolutionizing the way image is presented online."
 

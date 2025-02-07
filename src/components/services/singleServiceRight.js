@@ -1,12 +1,9 @@
 // icons import
 import { GoServer } from "react-icons/go";
 
-// Components
-import Social from "../shared/social/page";
 import ServiceCat from "../shared/serviceCat/page";
 
 export default function SingleServiceRight() {
-
     const services = [
         {
             id: 1,
@@ -61,7 +58,7 @@ export default function SingleServiceRight() {
                     <div className=" h-[0.5px] w-full dark:bg-gray-300 bg-gray-400  z-[-1] relative"></div>
                 </div>
 
-                <Social />
+              {/*   <Social /> */}
             </div>
         </div>
     )
